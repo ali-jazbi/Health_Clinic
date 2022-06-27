@@ -17,6 +17,10 @@
             transition: all .25s ease;
    
   }
+  .nav-link:hover{
+    color: $primary-color;
+    background-color: $white;
+  }
 
 }
 
