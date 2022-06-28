@@ -123,6 +123,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .btn-main-2 {
   background: #00c0ba;
   color: #fff;
+  text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #00c0ba;
 }
 
@@ -270,7 +271,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .text-sm {
-  font-size: 14px;
+  font-size: 17px;
+  color: #fefefe;
+  text-shadow: 2px 2px 8px #0f0e0e;
 }
 
 .text-md {
@@ -454,18 +457,21 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/bg/22.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/22.jpg") no-repeat 50% 50% ;
   background-size: cover;
   position: relative;
 }
-
 .banner {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  background:  url("../images/bg/1.png") no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 0px;
   min-height: 550px;
+
 }
 
 .banner .block {
@@ -477,9 +483,18 @@ a:focus {
   line-height: 1.2;
   letter-spacing: -1.2px;
   text-transform: capitalize;
-  color: #223a66;
+  color: #e5fcff;
+  animation: glow 3s ease-in-out infinite alternate;
 }
-
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(115, 113, 113), 0 0 20px rgb(201, 200, 200), 0 0 30px #00c0ba, 0 0 40px #00c0ba
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(4, 105, 151), 0 0 30px #016d69, 0 0 40px #016d69
+  }
+}
 .letter-spacing {
   letter-spacing: 2px;
 }
