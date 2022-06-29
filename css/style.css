@@ -275,6 +275,15 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #fefefe;
   text-shadow: 2px 2px 8px #0f0e0e;
 }
+@media screen and (max-width: 992px) {
+  .text-sm{
+  font-size: 18px;
+  color: #edfdff;
+  text-shadow: 10px 10px 21px #000000;
+  }
+}
+
+
 
 .text-md {
   font-size: 2.25rem;
@@ -521,6 +530,7 @@ a:focus {
   .banner {
     min-height: 450px;
     background: #fff !important;
+    
   }
 }
 
@@ -532,6 +542,7 @@ a:focus {
   .banner {
     min-height: 450px;
     background: #fff !important;
+    
   }
 }
 
@@ -542,13 +553,14 @@ a:focus {
   }
   .banner {
     background: #fff !important;
+    
   }
 }
 
 @media (max-width: 992px) {
   .banner {
-    background: #fff !important;
-  }
+    background-attachment: scroll;
+   }
 }
 
 .about-img img {
