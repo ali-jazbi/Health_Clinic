@@ -118,14 +118,15 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main {
-  background: #223a66;
+  background: #4DC5BF;
   color: #fff;
-  border-color: #223a66;
+  text-shadow: 1px 1px 3px #0f0e0e;
+  border-color: #4DC5BF;
 }
 
 .btn-main:hover {
-  background: #00c0ba;
-  border-color: #00c0ba;
+  background: #223a66;
+  border-color: #223a66;
   color: #fff;
 }
 
@@ -358,7 +359,7 @@ a:focus {
 }
 
 .title-color {
-  color: #223a66;
+  color: #1e8580;
 }
 
 .secondary-bg {
@@ -370,7 +371,7 @@ a:focus {
 }
 
 .section-title h2 {
-  color: #223a66;
+  color: #084e4a;
 }
 
 .text-lg {
@@ -644,7 +645,7 @@ a:focus {
 
 .feature-item .feature-icon i {
   font-size: 50px;
-  color: #223a66;
+  color: #4dc5bf;
 }
 
 .feature-item h4 {
@@ -707,7 +708,7 @@ a:focus {
 }
 
 .service .icon {
-  float: left;
+  float: right;
   margin-bottom: 10px;
 }
 
