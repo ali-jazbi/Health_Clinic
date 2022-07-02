@@ -31,7 +31,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family:homa, sans-serif;
-  font-weight: 700;
+  font-weight:100;
   color: #222;
 }
 
@@ -98,10 +98,10 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   display: inline-block;
   font-size: 14px;
   font-size: 0.8125rem;
-  font-weight: 700;
   letter-spacing: .5px;
   padding: .75rem 2rem;
   font-family:homa, sans-serif;
+  font-weight:100;
   text-transform: uppercase;
   border-radius: 5px;
   border: 2px solid transparent;
