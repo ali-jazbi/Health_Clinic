@@ -18,6 +18,15 @@ body {
   font-weight: 400;
 
 }
+#progress-bar {
+	position: fixed;
+	height: 8px;
+	margin-top: 2px;
+	width: 0%;
+	background: #00c0ba;
+	background: -webkit-linear-gradient(to right, #00c0ba, #56CCF2);
+	background: linear-gradient(to right, #00c0ba, #56CCF2);
+}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Exo", sans-serif;
@@ -567,7 +576,6 @@ a:focus {
   border-radius: 5px;
   box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
 }
-
 .award-img {
   height: 120px;
   margin-bottom: 10px;
