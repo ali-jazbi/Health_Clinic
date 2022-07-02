@@ -593,17 +593,24 @@ a:focus {
 
 .appoinment-content img {
   width: 85%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .appoinment-content .emergency {
   position: absolute;
   content: "";
-  right: 10px;
+  right: 30px;
   bottom: 20px;
-  background: #223a66;
-  padding: 48px;
+  background: #2D7E7A;
+  padding:18px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 6px solid rgba(255, 0, 0, 0);
 }
-
+.appoinment-content .emergency:hover{
+  border: #00cdc6 6px solid;
+}
 .appoinment-content .emergency h2 {
   color: #fff;
 }
