@@ -637,6 +637,10 @@ a:focus {
 .client-thumb {
   text-align: center;
 }
+.client-thumb img{
+  width: 150px;
+  height: 110px;
+}
 
 .features {
   margin-top: -70px;
