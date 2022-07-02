@@ -282,15 +282,17 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .text-sm {
-  font-size: 17px;
-  color: #fefefe;
-  text-shadow: 2px 2px 8px #0f0e0e;
+  font-size: 20px;
+  color: #d8fcfb;
+  text-shadow: 2px 2px 7px #000000;
+  line-height: 1.9;
 }
 @media screen and (max-width: 992px) {
   .text-sm{
-  font-size: 18px;
-  color: #edfdff;
-  text-shadow: 10px 10px 21px #000000;
+  font-size: 25px;
+  color: #d8fcfb;
+  text-shadow: 2px 2px 7px #000000;
+  line-height: 1.9;
   }
 }
 
@@ -489,15 +491,12 @@ a:focus {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 50px 0px;
   min-height: 550px;
-
 }
 
 .banner .block {
-  padding: 80px 0px 160px;
+  padding: 10px 0px 160px;
 }
-
 .banner .block h1 {
   font-size: 60px;
   line-height: 1.2;
@@ -572,6 +571,7 @@ a:focus {
     background-attachment: scroll;
     background-image: url(../images/bg/blur30.png);
    }
+
 }
 
 .about-img img {
@@ -640,6 +640,7 @@ a:focus {
 .client-thumb img{
   width: 150px;
   height: 110px;
+  opacity: 0.8;
 }
 
 .features {
