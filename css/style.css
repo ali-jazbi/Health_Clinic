@@ -121,6 +121,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .btn-main {
   background: #4DC5BF;
   color: #fff;
+  font-size:12px;
+  font-family:farnaz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #4DC5BF;
 }
@@ -133,7 +135,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 
 .btn-main-2 {
   background: #00c0ba;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  font-size:15px;
+  font-family:farnaz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #00c0ba;
 }
@@ -293,6 +297,18 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #d8fcfb;
   text-shadow: 2px 2px 7px #000000;
   line-height: 1.9;
+  }
+}
+@media (max-width: 992px) {
+  .appoinment .container , .clients .container{
+     width: 100% !important;
+     max-width: none;
+  }
+}
+@media (max-width: 992px) {
+  .features .container , .about .container , .cta-section .container , .service .container{
+      width: 90% !important;
+      max-width: none;
   }
 }
 
@@ -568,7 +584,6 @@ a:focus {
     
   }
 }
-
 @media (max-width: 992px) {
   .banner {
     background-attachment: scroll;
