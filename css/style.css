@@ -487,10 +487,13 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background:  url("../images/bg/1.png") no-repeat;
+  background:  url("../images/bg/medic.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /* create blur effect */
+  /* filter: blur(5px); */
+  background-repeat: no-repeat;
   min-height: 550px;
 }
 
@@ -569,7 +572,8 @@ a:focus {
 @media (max-width: 992px) {
   .banner {
     background-attachment: scroll;
-    background-image: url(../images/bg/blur30.png);
+    background-image: url(../images/bg/m.png);
+    background-size: cover;
    }
 
 }
