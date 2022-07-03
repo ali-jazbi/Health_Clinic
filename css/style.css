@@ -10,6 +10,10 @@ html {
   font-family: homa;
   src: url(../font/B\ Homa_0.ttf);
 }
+@font-face {
+  font-family: farnazz;
+  src: url(../font/Far_Farnaz.ttf);
+}
 body {
   line-height: 1.6;
   font-family:homa, sans-serif;
@@ -122,7 +126,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background: #4DC5BF;
   color: #fff;
   font-size:12px;
-  font-family:farnaz;
+  font-family:farnazz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #4DC5BF;
 }
@@ -137,7 +141,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background: #00c0ba;
   color: rgb(255, 255, 255);
   font-size:15px;
-  font-family:farnaz;
+  font-family:farnazz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #00c0ba;
 }
