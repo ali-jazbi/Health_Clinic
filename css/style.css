@@ -13,6 +13,7 @@ html {
 @font-face {
   font-family: farnazz;
   src: url(../font/Far_Farnaz.ttf);
+  font-style: normal;
 }
 body {
   line-height: 1.6;
@@ -125,7 +126,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .btn-main {
   background: #4DC5BF;
   color: #fff;
-  font-size:12px;
+  font-size:13px;
   font-family:farnazz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #4DC5BF;
@@ -140,7 +141,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 .btn-main-2 {
   background: #00c0ba;
   color: rgb(255, 255, 255);
-  font-size:15px;
+  font-size:16px;
   font-family:farnazz;
   text-shadow: 1px 1px 3px #0f0e0e;
   border-color: #00c0ba;
