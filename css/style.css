@@ -1632,9 +1632,17 @@ text-align: center;
 .subscribe .btn {
   position: absolute;
   right: 6px;
-  top: 6px;
+  top: 2px;
+  /* bottom: 6px; */
 }
-
+@media (max-width:992px) {
+  .subscribe .btn{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    bottom: 6px;
+  }
+}
 .backtop {
   position: fixed;
   background: #00c0ba;
