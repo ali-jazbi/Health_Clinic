@@ -697,7 +697,7 @@ a:focus {
   transform: scaleX(-1);
 }
 
-.appoinment-content .emergency {
+.appoinment-content .emergency{
   position: absolute;
   content: "";
   right: 30px;
@@ -709,8 +709,10 @@ a:focus {
 }
 @media (max-width: 992px) {
   .appoinment-content .emergency h2{
-    right: 20px;
+    /* right: 20px; */
     font-size: 17px;
+    line-height: 10px !important;
+    padding-top: 5px  !important;
   }
 }
 .appoinment-content .emergency:hover{
