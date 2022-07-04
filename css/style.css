@@ -317,14 +317,12 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   text-shadow: 2px 2px 7px #000000;
   line-height: 1.9;
 }
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .text-sm{
-  font-size: 25px;
-  color: #d8fcfb;
-  text-shadow: 2px 2px 7px #000000;
-  line-height: 1.9;
+  color: #064242d6;
+  text-shadow: 2px 2px 7px #d8fcfb3e;
   }
-} */
+}
 /* @media (max-width: 992px) {
   .appoinment .container , .clients .container{
      width: 100% !important;
@@ -596,6 +594,25 @@ a:focus {
   
   to {
     text-shadow: 0 0 20px rgb(4, 105, 151), 0 0 30px #016d69, 0 0 40px #016d69
+  }
+}
+@media (max-width: 992px) {
+  .banner .block h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+    text-transform: capitalize;
+    color: #095b66c0;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #c1e5eac0, 0 0 20px #c1e5eac0
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgba(4, 104, 151, 0.112), 0 0 30px #e5fcff2f
+    }
   }
 }
 .letter-spacing {
