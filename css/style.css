@@ -703,13 +703,12 @@ a:focus {
   right: 30px;
   bottom: 20px;
   background: #2D7E7A;
-  padding:18px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
   border: 6px solid rgba(255, 0, 0, 0);
 }
 .appoinment-content .emergency:hover{
-  border: #00cdc6 6px solid;
+  border: #00cdc6 1px solid;
 }
 .appoinment-content .emergency h2 {
   color: #fff;
