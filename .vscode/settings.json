@@ -10,7 +10,8 @@
         "**/service.html": false,
         "**/appoinment.html": true,
         "**/contact.html": true,
-        "**/confirmation.html": true
+        "**/confirmation.html": true,
+        "**/mail.php": true
     },
     "explorerExclude.backup": null
 }
