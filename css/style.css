@@ -1055,7 +1055,7 @@ a:focus {
     margin-right: 0px !important;
    }
    .cta-page .h2-cta{
-    font-size: 25px;
+    /* font-size: 25px; */
     /* create space line */
     line-height: 1.2;
    }
@@ -1615,7 +1615,7 @@ a:focus {
 }
 @media (max-width:992px){
   .widget p{
-    font-size:18px
+    font-size:15px
   }
 }
 
