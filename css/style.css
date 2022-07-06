@@ -419,6 +419,9 @@ a:focus {
   .page-title .divider-l{
     margin-left: 10px !important;
   }
+  .page-title .breadcumb-nav{
+    font-size: 13px;
+  }
 }
 @media (min-width: 992px){
   .page-title .divider-r{
@@ -730,12 +733,16 @@ a:focus {
     line-height: 10px !important;
     padding-top: 5px  !important;
   }
+  .span-appoinment{
+    font-size: 12px;
+  }
 }
 .appoinment-content .emergency:hover{
   border: #00cdc6 4px solid;
 }
 .appoinment-content .emergency h2 {
   color: #fff;
+  padding-right: 5px;
 }
 
 .appoinment-content .emergency i {
@@ -1056,6 +1063,7 @@ a:focus {
    }
    .cta-page .h2-cta{
     font-size: 33px;
+    color:rgb(72, 72, 72);
     /* create space line */
     line-height: 1.2;
    }
@@ -1579,6 +1587,9 @@ a:focus {
 
 .footer .copyright a {
   font-weight: 600;
+}
+.copyright{
+  padding-top:29px;
 }
 
 .lh-35 {
