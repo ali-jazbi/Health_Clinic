@@ -414,10 +414,10 @@ a:focus {
 }
 @media (max-width:992px){
   .page-title .divider-r{
-    margin-right: 26px !important;
+    margin-right: 20px !important;
   }
   .page-title .divider-l{
-    margin-left: 26px !important;
+    margin-left: 20px !important;
   }
 }
 @media (min-width: 992px){
@@ -1043,17 +1043,20 @@ a:focus {
     background-image: url(../images/bg/bg-service-blur.png);
     background-size: cover;
     position: relative;
+    height:400px ;
    }
    .cta-page .title-color{
     color: rgb(3, 100, 110);
     text-shadow: 0 0 0.5rem rgba(191, 239, 248, 0.708);
     line-height: 1.5;
+    font-size: 27px;
+    padding-top: 200px;
    }
    .cta-page .mr-5{
     margin-right: 0px !important;
    }
    .cta-page .h2-cta{
-    font-size: 34px;
+    font-size: 25px;
     /* create space line */
     line-height: 1.2;
    }
