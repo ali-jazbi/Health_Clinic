@@ -1611,6 +1611,11 @@ a:focus {
 .widget .footer-menu a:hover {
   color: #02c9c3;
 }
+@media (max-width:992px){
+  .widget p{
+    font-size:18px
+  }
+}
 
 .footer-contact-block span {
   font-weight: 400;
