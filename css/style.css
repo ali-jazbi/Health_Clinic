@@ -412,6 +412,22 @@ a:focus {
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
+@media (max-width:992px){
+  .page-title .divider-r{
+    margin-right: 26px !important;
+  }
+  .page-title .divider-l{
+    margin-left: 26px !important;
+  }
+}
+@media (min-width: 992px){
+  .page-title .divider-r{
+    margin-right: 55px !important;
+  }
+  .page-title .divider-l{
+    margin-left: 55px !important;
+  }
+}
 
 .slick-slide:focus, .slick-slide a {
   outline: none;
@@ -1030,6 +1046,16 @@ a:focus {
    }
    .cta-page .title-color{
     color: rgb(3, 100, 110);
+    text-shadow: 0 0 0.5rem rgba(191, 239, 248, 0.708);
+    line-height: 1.5;
+   }
+   .cta-page .mr-5{
+    margin-right: 0px !important;
+   }
+   .cta-page .h2-cta{
+    font-size: 34px;
+    /* create space line */
+    line-height: 1.2;
    }
 }
 .testimonial {
