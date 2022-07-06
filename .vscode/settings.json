@@ -8,7 +8,8 @@
         "**/Thumbs.db": true,
         "**/index.html": true,
         "**/service.html": false,
-        "**/appoinment.html": true
+        "**/appoinment.html": true,
+        "**/contact.html": true
     },
     "explorerExclude.backup": null
 }
