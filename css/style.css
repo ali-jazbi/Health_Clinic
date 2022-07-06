@@ -414,10 +414,10 @@ a:focus {
 }
 @media (max-width:992px){
   .page-title .divider-r{
-    margin-right: 20px !important;
+    margin-right: 10px !important;
   }
   .page-title .divider-l{
-    margin-left: 20px !important;
+    margin-left: 10px !important;
   }
 }
 @media (min-width: 992px){
@@ -1043,7 +1043,6 @@ a:focus {
     background-image: url(../images/bg/bg-service-blur.png);
     background-size: cover;
     position: relative;
-    height:400px ;
    }
    .cta-page .title-color{
     color: rgb(3, 100, 110);
