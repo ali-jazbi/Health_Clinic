@@ -9,7 +9,8 @@
         "**/index.html": true,
         "**/service.html": false,
         "**/appoinment.html": true,
-        "**/contact.html": true
+        "**/contact.html": true,
+        "**/confirmation.html": true
     },
     "explorerExclude.backup": null
 }
