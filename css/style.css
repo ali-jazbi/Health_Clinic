@@ -1073,6 +1073,24 @@ a:focus {
 		left: 125%;
 	}
 }
+.team-block img {
+  transition: all .35s ease;
+  position: relative;
+}
+.team-block img:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@-webkit-keyframes shine1 {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine1 {
+	100% {
+		left: 125%;
+	}
+}
 
 .lh-35 {
   line-height: 35px;
