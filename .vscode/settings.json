@@ -12,7 +12,8 @@
         "**/contact.html": true,
         "**/confirmation.html": true,
         "**/mail.php": true,
-        "**/doctor.html": true
+        "**/doctor.html": true,
+        "**/department.html": true
     },
     "explorerExclude.backup": null
 }
