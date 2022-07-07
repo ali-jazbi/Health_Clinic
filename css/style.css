@@ -1081,17 +1081,15 @@ a:focus {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-@-webkit-keyframes shine1 {
-	100% {
-		left: 125%;
-	}
+@media (max-width: 992px) {
+  .team-block img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
-@keyframes shine1 {
-	100% {
-		left: 125%;
-	}
+.icofont-quote-right{
+  color: #00c0ba;
 }
-
 .lh-35 {
   line-height: 35px;
 }
@@ -1203,13 +1201,14 @@ a:focus {
 }
 
 .testimonial:before {
-  width: 48%;
+  width: 50%;
   height: 100%;
   top: 0;
-  left: 0px;
+  right:800px;
   position: absolute;
   content: "";
-  background: url("../images/bg/bg-2.jpg") no-repeat 50% 50%;
+  background: url("../images/team/COMMENT.png") no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .testimonial .slick-dots {
@@ -1220,6 +1219,15 @@ a:focus {
   position: relative;
   margin-bottom: 20px;
 }
+@media (max-width:992px){
+  .testimonial-block{
+    margin-bottom: 80px;
+  }
+  .testimonial-block br{
+    display: none;
+  }
+}
+
 
 .testimonial-block p {
   background: #fff;

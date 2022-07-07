@@ -6,15 +6,15 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "**/index.html": true,
+        "**/index.html": false,
         "**/service.html": false,
-        "**/appoinment.html": true,
-        "**/contact.html": true,
-        "**/confirmation.html": true,
-        "**/mail.php": true,
-        "**/doctor.html": true,
-        "**/department.html": true,
-        "**/department-single.html": true
+        "**/appoinment.html": false,
+        "**/contact.html": false,
+        "**/confirmation.html": false,
+        "**/mail.php": false,
+        "**/doctor.html": false,
+        "**/department.html": false,
+        "**/department-single.html": false
     },
     "explorerExclude.backup": null
 }
