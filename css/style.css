@@ -974,6 +974,10 @@ a:focus {
       margin-left: 20px;
     }
   }
+  .awards img{
+    width: 100px;
+    height: 100px;
+  }
 .department-img img{
   width: 100%;
   height: 500px;
