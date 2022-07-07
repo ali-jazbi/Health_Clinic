@@ -934,7 +934,15 @@ a:focus {
       height: 250px;
     }
   }
-
+.department-img img{
+  width: 100%;
+  height: 500px;
+}
+@media (max-width: 992px) {
+  .department-img img{
+    height: 250px;
+  }
+}
 .doctors .btn-group .btn {
   border-radius: 0px;
   margin: 0px 2px;

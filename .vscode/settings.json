@@ -13,7 +13,8 @@
         "**/confirmation.html": true,
         "**/mail.php": true,
         "**/doctor.html": true,
-        "**/department.html": true
+        "**/department.html": true,
+        "**/department-single.html": true
     },
     "explorerExclude.backup": null
 }
